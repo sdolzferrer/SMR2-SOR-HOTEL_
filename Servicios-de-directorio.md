@@ -1,3 +1,34 @@
+<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
+
+Resultados de aprendizaje
+Al finalizar esta unidad, el alumno/a:
+
+1. _Instala_ y monitoriza sistemas operativos en red libres, _describiendo_ sus <ins>características y herramientas utilizadas.</ins> Realiza tareas de gestión sobre dominios _utilizando_ <ins>herramientas de administración de dominios e interpretando su documentación técnica.</ins>
+
+Realiza el estudio de compatibilidad del sistema informático.
+Planifica y realiza el método de partición del disco.
+Instala y actualiza el sistema.
+Comprueba el correcto funcionamiento y la conectividad de los sistemas operativos y software instalados.
+Diferencia los modos de instalación.
+Aplica procedimientos para la automatización de instalaciones y trabajos.
+Interpreta la información de configuración del sistema operativo en red.
+Realiza tareas de mantenimiento del software instalado en el sistema y configuración del entorno.
+Instala, configura y describe las características de programas de monitorización.
+Identifica problemas de rendimiento en el sistema a partir de las trazas generadas por el propio sistema.
+Documenta adecuadamente los procesos realizados de instalación y monitorización, las incidencias aparecidas y las soluciones aportadas.
+Busca e interpreta documentación técnica en las lenguas oficiales y en las de mayor uso en el sector.
+Identifica la función de servicio de directorio y dominio, estructura, sus elementos y nomenclatura.
+Realiza la instalación y configuración básica del servicio de directorio y establece relaciones de confianza.
+Utiliza herramientas gráficas de administración de dominio y consolas de administración.
+Use agrupaciones de elementos para la creación de modelos administrativos.
+Crea, configura y gestiona cuentas de usuario, grupos, equipos y distintos tipos de perfiles.
+Especifica el propósito de los grupos, sus tipos y ámbitos, y gestiona la pertenencia de usuarios a grupos.
+Identifica las características de usuarios y grupos predeterminados y especiales.
+Utiliza herramientas para la administración de usuarios y grupos, incluidas en el sistema operativo en red.
+Identifica y aplica directrices en la gestión del dominio
+Verifica la corrección de las tareas realizadas y documenta adecuadamente las tareas de gestión y administración de dominios realizadas.
+Busca e interpreta documentación técnica en las lenguas oficiales y en las de mayor uso en el sector.
+
 # 1. ¿Qué es un directorio?
 
 > Un directorio es una base de datos especializada que almacena información sobre los recursos o entidades existentes en una red, como usuarios, ordenadores o impresoras, y la pone a disposición de los usuarios de la red.
