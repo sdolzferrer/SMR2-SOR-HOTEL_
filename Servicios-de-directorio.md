@@ -11,11 +11,11 @@ _Función principal:_
 
 > Un servicio de directorio constituye un conjunto de elementos, formado por software y hardware, que trabajan juntos para almacenar, organizar y gestionar la información referente a los usuarios y los recursos de una red. Los servicios de directorio actúan como una capa de abstracción entre los usuarios y los recursos compartidos y permiten a los administradores gestionar el acceso de los usuarios a los recursos de la red.
 
-4. ¿Explica la direfencia entre un directorio y el servicio de directorio?
+# 4. ¿Explica la direfencia entre un directorio y el servicio de directorio?
 
 > El directorio constituye la base de datos en la que se almacena la información, mientras que el servicio de directorio es la infraestructura física y lógica que permite gestionar los datos del directorio
 
-5. ¿Nombra algunas de las principales utilidades de los servicios de directorios?
+# 5. ¿Nombra algunas de las principales utilidades de los servicios de directorios?
 
 > _Utilidades de un servicio de directorio:_ Algunas de las principales utilidades de los servicios de directorio son la búsqueda y gestión de información dentro de una red y el hecho de garantizar la seguridad de acceso a la red mediante su uso para la autenticación de usuarios.
 Es decir:
@@ -23,7 +23,7 @@ Es decir:
 - Gestionar información
 - Seguridad
 
-6. ¿Nombra y describe los dos mecanismos que utilizan los servicios de directorio para realizar funcciones de autenticación?
+# 6. ¿Nombra y describe los dos mecanismos que utilizan los servicios de directorio para realizar funcciones de autenticación?
    
 > Los servicios de directorio pueden realizar funciones de autenticación de usuario mediante dos tipos de mecanismos:
 
