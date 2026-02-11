@@ -33,14 +33,14 @@ h) Se han utilizado herramientas de administración de dominios.
 - __Verifica__ la corrección de las tareas realizadas y documenta adecuadamente las tareas de gestión y administración de dominios realizadas.
 
 
-<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
+
 (1) Recordar, (2) Comprender, (3) Aplicar (4) Analizar, (5) Evaluar, (6) Crear
 
-Contenidos:
-> Protocolo de acceso a directorios: LDAP.
-Introducción al concepto de directorio y dominio
-Pasos creación de un dominio
-Herramientas administrativas para dominios
+# Contenidos:
+> - Protocolo de acceso a directorios: LDAP.
+> - Introducción al concepto de directorio y dominio
+> - Pasos creación de un dominio
+> - Herramientas administrativas para dominios
 
 # 1. ¿Qué es un directorio?
 
@@ -74,4 +74,6 @@ Es decir:
 _Autenticación simple_ , en la que el directorio mantiene almacenada la contraseña de cada _usuario. Cuando el usuario accede al directorio, realiza una comparación con el valor almacenado. Si lo comparamos con una carta, equivaldría al servicio que ofrece la firma a pie de página.
 _Autenticación fuerte_ , en la que el directorio mantiene almacenadas claves de cifrado para autenticar al usuario. Siguiendo con la comparación, el cifrado de mensajes equivaldría a cerrar el sobre y añadir un lacre digital para impedir que terceras personas lo abrieran.
 
+
+<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
 
