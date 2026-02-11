@@ -71,8 +71,18 @@ Es decir:
    
 > Los servicios de directorio pueden realizar funciones de autenticación de usuario mediante dos tipos de mecanismos:
 
-_Autenticación simple_ , en la que el directorio mantiene almacenada la contraseña de cada _usuario. Cuando el usuario accede al directorio, realiza una comparación con el valor almacenado. Si lo comparamos con una carta, equivaldría al servicio que ofrece la firma a pie de página.
-_Autenticación fuerte_ , en la que el directorio mantiene almacenadas claves de cifrado para autenticar al usuario. Siguiendo con la comparación, el cifrado de mensajes equivaldría a cerrar el sobre y añadir un lacre digital para impedir que terceras personas lo abrieran.
+- _Autenticación simple_ , en la que el directorio mantiene almacenada la contraseña de cada _usuario. Cuando el usuario accede al directorio, realiza una comparación con el valor almacenado. Si lo comparamos con una carta, equivaldría al servicio que ofrece la firma a pie de página.
+- _Autenticación fuerte_ , en la que el directorio mantiene almacenadas claves de cifrado para autenticar al usuario. Siguiendo con la comparación, el cifrado de mensajes equivaldría a cerrar el sobre y añadir un lacre digital para impedir que terceras personas lo abrieran.
+
+# 7. ¿Qué define una política de seguridad en el servicico de directorio?
+
+> La política de seguridad define qué usuario tiene el tipo de acceso sobre qué información, la política de seguridad define el "qué" y el "porqué", 
+>
+> para llevarla a cabo se necesita un método para autenticar al usuario. Una vez verificada la identidad del cliente, se puede determinar si está autorizado a llevar a cabo la operación solicitada o no. Generalmente, las autorizaciones están basadas en la ACL
+
+# 8. ¿Qué son las ACL?
+
+Las listas de control de acceso son el mecanismo técnico que implementa el "cómo".
 
 
 <img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
