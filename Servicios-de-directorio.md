@@ -1,33 +1,34 @@
-<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
-
 Resultados de aprendizaje
 Al finalizar esta unidad, el alumno/a:
 
-1. _Instala_ y monitoriza sistemas operativos en red libres, _describiendo_ sus <ins>características y herramientas utilizadas.</ins> Realiza tareas de gestión sobre dominios _utilizando_ <ins>herramientas de administración de dominios e interpretando su documentación técnica.</ins>
+1. __Instala__ y monitoriza sistemas operativos en red libres, __describiendo__ sus <ins>características y herramientas utilizadas.</ins> Realiza tareas de gestión sobre dominios __utilizando__ <ins>herramientas de administración de dominios e interpretando su documentación técnica.</ins>
 
-Realiza el estudio de compatibilidad del sistema informático.
-Planifica y realiza el método de partición del disco.
-Instala y actualiza el sistema.
-Comprueba el correcto funcionamiento y la conectividad de los sistemas operativos y software instalados.
-Diferencia los modos de instalación.
-Aplica procedimientos para la automatización de instalaciones y trabajos.
-Interpreta la información de configuración del sistema operativo en red.
-Realiza tareas de mantenimiento del software instalado en el sistema y configuración del entorno.
-Instala, configura y describe las características de programas de monitorización.
-Identifica problemas de rendimiento en el sistema a partir de las trazas generadas por el propio sistema.
-Documenta adecuadamente los procesos realizados de instalación y monitorización, las incidencias aparecidas y las soluciones aportadas.
-Busca e interpreta documentación técnica en las lenguas oficiales y en las de mayor uso en el sector.
-Identifica la función de servicio de directorio y dominio, estructura, sus elementos y nomenclatura.
-Realiza la instalación y configuración básica del servicio de directorio y establece relaciones de confianza.
-Utiliza herramientas gráficas de administración de dominio y consolas de administración.
-Use agrupaciones de elementos para la creación de modelos administrativos.
-Crea, configura y gestiona cuentas de usuario, grupos, equipos y distintos tipos de perfiles.
-Especifica el propósito de los grupos, sus tipos y ámbitos, y gestiona la pertenencia de usuarios a grupos.
-Identifica las características de usuarios y grupos predeterminados y especiales.
-Utiliza herramientas para la administración de usuarios y grupos, incluidas en el sistema operativo en red.
-Identifica y aplica directrices en la gestión del dominio
-Verifica la corrección de las tareas realizadas y documenta adecuadamente las tareas de gestión y administración de dominios realizadas.
-Busca e interpreta documentación técnica en las lenguas oficiales y en las de mayor uso en el sector.
+- __Realiza__ el estudio de compatibilidad del sistema informático.
+- __Planifica y realiza__ el método de partición del disco.
+- __Instala y actualiza__ el sistema.
+- __Comprueba__ el correcto funcionamiento y la conectividad de los sistemas operativos y software instalados.
+- __Diferencia__ los modos de instalación.
+- __Aplica__ procedimientos para la automatización de instalaciones y trabajos.
+- __Interpreta__ la información de configuración del sistema operativo en red.
+- __Realiza__ tareas de mantenimiento del software instalado en el sistema y configuración del entorno.
+- __Instala, configura y describe__ las características de programas de monitorización.
+- __Identifica__ problemas de rendimiento en el sistema a partir de las trazas generadas por el propio sistema.
+- __Documenta__ adecuadamente los procesos realizados de instalación y monitorización, las incidencias aparecidas y las soluciones aportadas.
+- __Busca e interpreta__ documentación técnica en las lenguas oficiales y en las de mayor uso en el sector.
+- __Identifica__ la función de servicio de directorio y dominio, estructura, sus elementos y nomenclatura.
+- __Realiza__ la instalación y configuración básica del servicio de directorio y establece relaciones de confianza.
+- __Utiliza__ herramientas gráficas de administración de dominio y consolas de administración.
+- __Usa__ agrupaciones de elementos para la creación de modelos administrativos.
+- __Crea, configura y gestiona__ cuentas de usuario, grupos, equipos y distintos tipos de perfiles.
+- __Especifica__ el propósito de los grupos, sus tipos y ámbitos, y gestiona la pertenencia de usuarios a grupos.
+- __Identifica__ las características de usuarios y grupos predeterminados y especiales.
+- __Utiliza__ herramientas para la administración de usuarios y grupos, incluidas en el sistema operativo en red.
+- __Identifica__ y __aplica__ directrices en la gestión del dominio
+- __Verifica__ la corrección de las tareas realizadas y documenta adecuadamente las tareas de gestión y administración de dominios realizadas.
+- __Busca e interpreta__ documentación técnica en las lenguas oficiales y en las de mayor uso en el sector.
+
+<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
+
 
 # 1. ¿Qué es un directorio?
 
