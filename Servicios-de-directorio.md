@@ -76,17 +76,26 @@ Es decir:
 
 # 7. ¿Qué define una política de seguridad en el servicico de directorio?
 
-> La política de seguridad define define el "qué" (usuarios) y el "porqué" (uso), y el "cómo" (listas de acceso) que para llevarla a cabo se necesita un método para autenticar al usuario. 
->
+> La política de seguridad define define el "qué" (usuarios) y el "porqué" (uso), y el "cómo" (listas de control de acceso) que para llevarla a cabo se necesita un método para autenticar al usuario. 
+
 > Una vez verificada la identidad del cliente, se puede determinar si está autorizado a llevar a cabo la operación solicitada o no.
->
-> 
 
 # 8. ¿Qué son las ACL?
 
-ACL (Acces Control List o Lista de control de acceso) es un concepto de seguridad utilizado para dar privilegios o no a un objeto determinado que está haciendo una petición.
+> ACL (Acces Control List o Lista de control de acceso) es un concepto de seguridad utilizado para dar privilegios o no a un objeto determinado que está haciendo una petición. En general las ACL (Access Control Lists o Listas de Control de Acceso) son conjuntos de reglas secuenciales aplicadas a dispositivos de red (routers, firewalls) o sistemas de archivos para filtrar el tráfico y gestionar permisos. 
+
+# 9 ¿Qué es LDAP?
+
+> LDAP es un protocolo abierto a escala de aplicación, del tipo cliente-servidor, que se utiliza para acceder a un servicio de directorio.
+
+# 10 ¿Cuál es el objetivo de LDAP?
+
+> El objetivo principal es permitir la autenticación en red .
 
 
+# 11 ¿Cuál es el funcionamiento de LDAP?
+
+> El servicio de directorio LDAP, como casi todos los servicios de directorio, tiene una arquitectura cliente-servidor. En este modelo, uno o varios servidores LDAP contienen los datos que conforman el árbol de directorio LDAP o base de datos jerárquica. La aplicación que hace de cliente LDAP se conecta con el servidor LDAP y le hace una consulta . El servidor contesta con la respuesta correspondiente o indica el lugar donde el cliente puede encontrar más información. Normalmente, este sitio será otro servidor LDAP.
 
 <img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
 
