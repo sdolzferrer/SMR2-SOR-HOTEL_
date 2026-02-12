@@ -89,5 +89,5 @@ Entre las órdenes que proporciona el sistema, están las siguientes:
 > - __userdel__, __deluser__, __groupdel__, __delgroup__: permiten al superusuario borrar usuarios y grupos del sistema. 
 > - __passwd__: comando que se utiliza para establecer o actualizar la contraseña de los usuarios existentes en el sistema.
 
-<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
+
 
