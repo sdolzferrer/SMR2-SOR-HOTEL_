@@ -41,3 +41,5 @@ h) Se han utilizado herramientas de administración de dominios.
 > - Introducción al concepto de directorio y dominio
 > - Pasos creación de un dominio
 > - Herramientas administrativas para dominios
+
+<img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
