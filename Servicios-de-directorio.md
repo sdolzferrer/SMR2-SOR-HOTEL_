@@ -69,22 +69,25 @@ Autorización , es el proceso por el que la red autoriza al usuario identificado
 Auditoría , mediante la cual la red o sistemas asociados registran todos los accesos a los recursos que hacen los usuarios autorizados o no.
 
 
-Para entender mejor el funcionamiento de la autenticación en los sistemas GNU/Linux, es necesario saber qué archivos y herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.
-# ¿Qué archivos y herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.?
+## Para entender mejor el funcionamiento de la autenticación en los sistemas GNU/Linux, es necesario saber qué archivos y herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles. 
+
+# ¿Qué archivos utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.?
 
 ### Archivos
 > - El archivo /etc/passwd es el que utilizan los sistemas GNU/Linux para almacenar la información de los usuarios del sistema. Todos los usuarios deben tener una entrada en este archivo para poder acceder al sistema.
 > - El archivo /etc/group es el que utilizan los sistemas GNU/Linux para almacenar la información de los grupos existentes en el sistema. Todos los grupos deben tener una entrada en este archivo y todos los usuarios deben pertenecer a algún grupo.
 > - El archivo /etc/shadow es el archivo en el que los sistemas GNU/Linux almacenan las contraseñas cifradas de los usuarios para garantizar el acceso al sistema. Por motivos de seguridad, este archivo sólo puede editarlo el superusuario y sólo lo pueden leer los usuarios que pertenecen al grupo del superusuario.
 
+# ¿Qué herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.?
+
 ### Herramientas
 
 Herramientas de gestión de usuarios
 Entre las órdenes que proporciona el sistema, están las siguientes:
-> - __useradd__, __adduser__, __groupadd__, __addgroup__: estos comandos permiten al superusuario crear nuevos usuarios y grupos en el sistema. Dependiendo de la distribución con la que trabajemos, estas órdenes funcionan igual o no. En Ubuntu existen diferencias entre estas órdenes. Los comandos adduser y addgroup son más completos, ya que realmente son scripts de Perl que utilizan los comandos useradd y groupadd para crear usuarios y grupos. De hecho, los mandatos adduser y addgroup le permiten crear todos los parámetros (la contraseña, el directorio del usuario…) de los usuarios y grupos a la vez.
-> - __usermod__, __groupmod__: son órdenes que se utilizan para modificar la información sobre los usuarios y los grupos respectivamente. Sólo puede utilizarlas el usuario root.
-> - __userdel__, __deluser__, __groupdel__, __delgroup__: permiten al superusuario borrar usuarios y grupos del sistema. El funcionamiento depende también de cada distribución, como en el caso de las órdenes de creación. El mandato userdel -r eliminará también la carpeta del usuario.
-> - passwd: comando que se utiliza para establecer o actualizar la contraseña de los usuarios existentes en el sistema.
+> - __useradd__, __adduser__, __groupadd__, __addgroup__: estos comandos permiten al superusuario crear nuevos usuarios y grupos en el sistema.
+> - __usermod__, __groupmod__: son órdenes que se utilizan para modificar la información sobre los usuarios y los grupos respectivamente.
+> - __userdel__, __deluser__, __groupdel__, __delgroup__: permiten al superusuario borrar usuarios y grupos del sistema. 
+> - __passwd__: comando que se utiliza para establecer o actualizar la contraseña de los usuarios existentes en el sistema.
 
 <img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
 
