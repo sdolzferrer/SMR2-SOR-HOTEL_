@@ -76,13 +76,16 @@ Es decir:
 
 # 7. ¿Qué define una política de seguridad en el servicico de directorio?
 
-> La política de seguridad define qué usuario tiene el tipo de acceso sobre qué información, la política de seguridad define el "qué" y el "porqué", 
+> La política de seguridad define define el "qué" (usuarios) y el "porqué" (uso), y el "cómo" (listas de acceso) que para llevarla a cabo se necesita un método para autenticar al usuario. 
 >
-> para llevarla a cabo se necesita un método para autenticar al usuario. Una vez verificada la identidad del cliente, se puede determinar si está autorizado a llevar a cabo la operación solicitada o no. Generalmente, las autorizaciones están basadas en la ACL
+> Una vez verificada la identidad del cliente, se puede determinar si está autorizado a llevar a cabo la operación solicitada o no.
+>
+> 
 
 # 8. ¿Qué son las ACL?
 
-Las listas de control de acceso son el mecanismo técnico que implementa el "cómo".
+ACL (Acces Control List o Lista de control de acceso) es un concepto de seguridad utilizado para dar privilegios o no a un objeto determinado que está haciendo una petición.
+
 
 
 <img width="967" height="453" alt="image" src="https://github.com/user-attachments/assets/c5e6e4ee-8e8b-40f5-a6c7-d1244c97b367" />
