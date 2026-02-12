@@ -56,31 +56,52 @@ Es decir:
 
 
 
-# ¿Qué es la autenticación en términos de seguridad de redes?
+# Autenticación de usuarios en redes GNU/Linux
+
+### Mecanismo general de autenticación
+La mayor parte de los sistemas informáticos y de redes mantienen de una u otra manera una relación de usuarios asociados normalmente con un perfil de seguridad, con privilegios y permisos.
+
+La autenticación de los usuarios permite que estos sistemas asuman con una seguridad razonable que quien se conecta con ellos es quien dice ser. De este modo, las acciones que se ejecutan en el sistema después pueden referirse al usuario y el sistema puede aplicar los mecanismos de autorización y auditoría oportunos. Por tanto, el primer elemento necesario para la autenticación es que haya identidades con un identificador único o login .
+
+### El proceso general de autenticación consta de los siguientes pasos:
+
+El usuario solicita acceso a un sistema.
+El sistema solicita al usuario que se autentique.
+El usuario aporta las credenciales que le identifican y permiten verificar la autenticidad de la identificación.
+El sistema valida según sus reglas si las credenciales aportadas son suficientes para dar o no acceso al usuario.
+
+## ¿Qué es la autenticación en términos de seguridad de redes?
 
 > La autenticación es el acto de establecimiento o confirmación de algo o persona como auténtica. La autenticación de un objeto puede significar la confirmación de su procedencia, mientras que la autenticación de una persona a menudo consiste en verificar su identidad.
 
-# ¿Qué es la autenticación en términos de seguridad de redes?
+## ¿Qué es la autenticación en términos de seguridad de redes?
 
 Autorización , es el proceso por el que la red autoriza al usuario identificado a acceder a determinados recursos de esta red.
 
-# ¿Qué es la auditoria en términos de seguridad de redes?
+## ¿Qué es la auditoria en términos de seguridad de redes?
 
 Auditoría , mediante la cual la red o sistemas asociados registran todos los accesos a los recursos que hacen los usuarios autorizados o no.
 
 
-## Para entender mejor el funcionamiento de la autenticación en los sistemas GNU/Linux, es necesario saber qué archivos y herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles. 
+### Para entender mejor el funcionamiento de la autenticación en los sistemas GNU/Linux, es necesario saber qué archivos y herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles. 
 
-# ¿Qué archivos utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.?
+### Archivos 
 
-### Archivos
+## ¿Qué es el arcchivo /etc/passwd?
+
 > - El archivo /etc/passwd es el que utilizan los sistemas GNU/Linux para almacenar la información de los usuarios del sistema. Todos los usuarios deben tener una entrada en este archivo para poder acceder al sistema.
+
+## ¿Qué es el arcchivo /etc/group?
+
 > - El archivo /etc/group es el que utilizan los sistemas GNU/Linux para almacenar la información de los grupos existentes en el sistema. Todos los grupos deben tener una entrada en este archivo y todos los usuarios deben pertenecer a algún grupo.
+
+## ¿Qué es el arcchivo /etc/shadow?
+
 > - El archivo /etc/shadow es el archivo en el que los sistemas GNU/Linux almacenan las contraseñas cifradas de los usuarios para garantizar el acceso al sistema. Por motivos de seguridad, este archivo sólo puede editarlo el superusuario y sólo lo pueden leer los usuarios que pertenecen al grupo del superusuario.
 
-# ¿Qué herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.?
-
 ### Herramientas
+
+## ¿Qué herramientas utilizan los sistemas para gestionar las cuentas de usuarios y grupos, y sus perfiles.?
 
 Herramientas de gestión de usuarios
 Entre las órdenes que proporciona el sistema, están las siguientes:
