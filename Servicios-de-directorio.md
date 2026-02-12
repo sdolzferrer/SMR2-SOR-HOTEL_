@@ -115,6 +115,15 @@ Entre las órdenes que proporciona el sistema, están las siguientes:
 > - __userdel__, __deluser__, __groupdel__, __delgroup__: permiten al superusuario borrar usuarios y grupos del sistema.
 
 
+__Otros mecanismos de autenticación en los sistemas GNU/Linux__:Aparte de la autenticación tradicional, los sistemas GNU/Linux permiten utilizar otros mecanismos de autenticación. De la gestión y configuración de los mecanismos de autenticación distintos del mecanismo tradicional para las aplicaciones en los sistemas GNU/Linux, se encarga el sistema Linux PAM . Aparte, también podemos llevar a cabo la autenticación a través de un servidor LDAP , mediante la configuración del NSS.
+
+### ¿Qué es el PAM ('pluggable autentication module')?
+> El PAM es un mecanismo que las aplicaciones utilizan para la autenticación de usuarios. No es un modelo de autenticación en sí, sino un mecanismo que proporciona una interfaz entre las aplicaciones de usuario y los distintos métodos de autenticación. De esta forma, intenta solucionar uno de los problemas clásicos de la autenticación de usuarios: el hecho de que una vez que se ha definido e implantado un mecanismo de autenticación determinado en un entorno, sea difícil cambiarlo.
+
+<img width="1179" height="757" alt="image" src="https://github.com/user-attachments/assets/b18491db-2013-4b76-a095-fbf77a7c87bd" />
+
+
+
 
 
 
